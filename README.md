@@ -20,22 +20,24 @@ TRIPLE DES provides greater key length 112 bits in this model.
 USAGE:
 
 ENCRYPTION
-``` python3 des.py --mode enc --algorithm des --key1 ***** --string 'Encrypt this text'
-                              OR
+``` 
+    python3 des.py --mode enc --algorithm des --key1 ***** --string 'Encrypt this text'
+                                            OR
     python3 des.py -m enc -a des -k1 ***** -s 'Encrypt this text'
     ------------------------------------------------------------------------------------------------
     python3 des.py --mode enc --algorithm 3des --key1 ***** --key2 ***** --string 'Encrypt this text'
-                              OR
+                                            OR
     python3 des.py -m enc -a 3des -k1 ***** -k2 ***** -s 'Encrypt this text'
 ```
 
 DECRYPTION
-``` python3 des.py --mode dec --algorithm des --key1 ***** --string 'Decrypt this text'
-                              OR
+``` 
+    python3 des.py --mode dec --algorithm des --key1 ***** --string 'Decrypt this text'
+                                            OR
     python3 des.py -m dec -a des -k1 ***** -s 'Decrypt this text'
     ------------------------------------------------------------------------------------------------
     python3 des.py --mode dec --algorithm 3des --key1 ***** --key2 ***** --string 'Decrypt this text'
-                              OR
+                                            OR
     python3 des.py -m dec -a 3des -k1 ***** -k2 ***** -s 'Decrypt this text'
 ```
    
